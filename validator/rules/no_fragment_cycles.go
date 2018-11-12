@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vektah/gqlparser/ast"
-	. "github.com/vektah/gqlparser/validator"
+	"github.com/Morkow/gqlparser/ast"
+	. "github.com/Morkow/gqlparser/validator"
 )
 
 func init() {

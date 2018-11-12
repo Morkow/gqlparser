@@ -1,11 +1,11 @@
-gqlparser [![CircleCI](https://badgen.net/circleci/github/vektah/gqlparser/master)](https://circleci.com/gh/vektah/gqlparser) [![Go Report Card](https://goreportcard.com/badge/github.com/vektah/gqlparser)](https://goreportcard.com/report/github.com/vektah/gqlparser) [![Coverage Status](https://badgen.net/coveralls/c/github/vektah/gqlparser)](https://coveralls.io/github/vektah/gqlparser?branch=master)
+gqlparser [![CircleCI](https://badgen.net/circleci/github/Morkow/gqlparser/master)](https://circleci.com/gh/Morkow/gqlparser) [![Go Report Card](https://goreportcard.com/badge/github.com/Morkow/gqlparser)](https://goreportcard.com/report/github.com/Morkow/gqlparser) [![Coverage Status](https://badgen.net/coveralls/c/github/Morkow/gqlparser)](https://coveralls.io/github/Morkow/gqlparser?branch=master)
 ===
 
 This is a parser for graphql, written to mirror the graphql-js reference implementation as closely while remaining idiomatic and easy to use.
 
 spec target: June 2018 (Schema definition language, block strings as descriptions, error paths & extension)
 
-This parser is used by [gqlgen](https://github.com/99designs/gqlgen), and it should be reasonablly stable.
+This parser is used by [gqlgen](https://github.com/Morkow/gqlgen), and it should be reasonablly stable.
 
 Guiding principles:
 

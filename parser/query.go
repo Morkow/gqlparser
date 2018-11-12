@@ -1,10 +1,10 @@
 package parser
 
 import (
-	"github.com/vektah/gqlparser/gqlerror"
-	"github.com/vektah/gqlparser/lexer"
+	"github.com/Morkow/gqlparser/gqlerror"
+	"github.com/Morkow/gqlparser/lexer"
 
-	. "github.com/vektah/gqlparser/ast"
+	. "github.com/Morkow/gqlparser/ast"
 )
 
 func ParseQuery(source *Source) (*QueryDocument, *gqlerror.Error) {

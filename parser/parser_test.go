@@ -3,9 +3,9 @@ package parser
 import (
 	"testing"
 
+	"github.com/Morkow/gqlparser/ast"
+	"github.com/Morkow/gqlparser/lexer"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/ast"
-	"github.com/vektah/gqlparser/lexer"
 )
 
 func TestParserUtils(t *testing.T) {

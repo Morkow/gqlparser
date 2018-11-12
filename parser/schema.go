@@ -1,9 +1,9 @@
 package parser
 
 import (
-	. "github.com/vektah/gqlparser/ast"
-	"github.com/vektah/gqlparser/gqlerror"
-	"github.com/vektah/gqlparser/lexer"
+	. "github.com/Morkow/gqlparser/ast"
+	"github.com/Morkow/gqlparser/gqlerror"
+	"github.com/Morkow/gqlparser/lexer"
 )
 
 func ParseSchema(source *Source) (*SchemaDocument, *gqlerror.Error) {

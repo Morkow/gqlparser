@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Morkow/gqlparser"
+	"github.com/Morkow/gqlparser/ast"
+	"github.com/Morkow/gqlparser/gqlerror"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser"
-	"github.com/vektah/gqlparser/ast"
-	"github.com/vektah/gqlparser/gqlerror"
 	"gopkg.in/yaml.v2"
 )
 

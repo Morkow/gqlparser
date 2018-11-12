@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Morkow/gqlparser/gqlerror"
 	"github.com/andreyvit/diff"
-	"github.com/vektah/gqlparser/gqlerror"
 	"gopkg.in/yaml.v2"
 )
 

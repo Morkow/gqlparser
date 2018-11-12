@@ -4,9 +4,9 @@ import (
 	"io/ioutil"
 	"testing"
 
+	"github.com/Morkow/gqlparser/ast"
+	"github.com/Morkow/gqlparser/parser/testrunner"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser/ast"
-	"github.com/vektah/gqlparser/parser/testrunner"
 )
 
 func TestLoadSchema(t *testing.T) {

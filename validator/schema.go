@@ -5,9 +5,9 @@ package validator
 import (
 	"strconv"
 
-	. "github.com/vektah/gqlparser/ast"
-	"github.com/vektah/gqlparser/gqlerror"
-	"github.com/vektah/gqlparser/parser"
+	. "github.com/Morkow/gqlparser/ast"
+	"github.com/Morkow/gqlparser/gqlerror"
+	"github.com/Morkow/gqlparser/parser"
 )
 
 func LoadSchema(inputs ...*Source) (*Schema, *gqlerror.Error) {

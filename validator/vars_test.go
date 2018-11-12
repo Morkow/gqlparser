@@ -6,10 +6,10 @@ import (
 
 	"encoding/json"
 
+	"github.com/Morkow/gqlparser"
+	"github.com/Morkow/gqlparser/ast"
+	"github.com/Morkow/gqlparser/validator"
 	"github.com/stretchr/testify/require"
-	"github.com/vektah/gqlparser"
-	"github.com/vektah/gqlparser/ast"
-	"github.com/vektah/gqlparser/validator"
 )
 
 func TestValidateVars(t *testing.T) {
@@ -79,12 +79,12 @@ func TestValidateVars(t *testing.T) {
 			q := gqlparser.MustLoadQuery(schema, `query foo($var: InputType!) { structArg(i: $var) }`)
 			vars, gerr := validator.VariableValues(schema, q.Operations.ForName(""), map[string]interface{}{
 				"var": map[string]interface{}{
-					"name": "foobar",
-					"nullName":nil,
+					"name":     "foobar",
+					"nullName": nil,
 				},
 			})
 			require.Nil(t, gerr)
-			require.EqualValues(t, map[string]interface{}{"name": "foobar","nullName":nil}, vars["var"])
+			require.EqualValues(t, map[string]interface{}{"name": "foobar", "nullName": nil}, vars["var"])
 		})
 
 		t.Run("missing required values", func(t *testing.T) {
